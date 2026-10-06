@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@theme {
+  /* Palet: #171a21 · #1b2838 · #2a475e · #66c0f4 · #c7d5e0 */
+  --color-paper: #171a21;
+  --color-surface: #1b2838;
+  --color-line: #2a475e;
+  --color-brand: #66c0f4;
+  --color-ink: #c7d5e0;
+  --color-mute: color-mix(in srgb, #c7d5e0 62%, #171a21);
+  --font-serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+}
+html { scroll-behavior: smooth; color-scheme: dark; }
+body { @apply bg-paper font-sans text-ink antialiased; }
